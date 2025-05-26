@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="auto.png" />
+    <None Remove="help.png" />
+    <None Remove="reset.png" />
+    <None Remove="timer.png" />
+    <None Remove="tower.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="auto.png" />
+    <Resource Include="help.png" />
+    <Resource Include="reset.png" />
+    <Resource Include="timer.png" />
+    <Resource Include="tower.png" />
+  </ItemGroup>
+
+</Project>
